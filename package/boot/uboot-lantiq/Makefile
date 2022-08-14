@@ -335,16 +335,19 @@ endef
 define U-Boot/slx501_nandspl
   NAME:=ZyXEL SLX501 (NANDSPL)
   BUILD_SUBTARGET:=xrx200
+  BUILD_DEVICES:zyxel_sl5501
 endef
 
 define U-Boot/slx501_sfspl
   NAME:=ZyXEL SLX501 (NOR)
   BUILD_SUBTARGET:=xrx200
+  BUILD_DEVICES:zyxel_sl5501
 endef
 
 define U-Boot/slx501_ram
   NAME:=ZyXEL SLX501 (RAM)
   BUILD_SUBTARGET:=xrx200
+  BUILD_DEVICES:zyxel_sl5501
   DDR_SETTINGS:=board/zyxel/slx501/ddr_settings.h
 endef
 
