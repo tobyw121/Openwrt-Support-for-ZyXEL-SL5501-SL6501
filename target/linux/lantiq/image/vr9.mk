@@ -287,3 +287,18 @@ define Device/zyxel_p-2812hnu-f3
   DEFAULT := n
 endef
 TARGET_DEVICES += zyxel_p-2812hnu-f3
+
+define Device/zyxel_sl5501
+  $(Device/dsa-migration)
+  DEVICE_VENDOR := ZyXEL
+  DEVICE_MODEL := SL5501
+  DEVICE_VARIANT := NOR
+  DEVICE_ALT0_VENDOR := Telekom
+  DEVICE_ALT0_MODEL := Speedlink
+  KERNEL_SIZE := 3072k
+  IMAGE_SIZE := 31232k
+  DEVICE_PACKAGES := kmod-owl-loader wpad-basic-wolfssl kmod-usb-dwc2 kmod-usb-ledtrig-usbport
+  SUPPORTED_DEVICES += SL5501
+  DEFAULT := n
+endef
+TARGET_DEVICES += zyxel_sl5501
