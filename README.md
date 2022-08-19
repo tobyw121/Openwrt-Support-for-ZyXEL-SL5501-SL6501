@@ -11,6 +11,8 @@ full customization, to use the device in ways never envisioned.
 
 Sunshine!
 
+### This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git. It is used for porting ZyXEL SL5501 and SL6501 and will get all changes for porting 
+
 ## Development
 
 To build your own firmware you need a GNU/Linux, BSD or MacOSX system (case
